@@ -1,0 +1,22 @@
+import time
+import random
+Name=input('Hey Welcome to Creative products, May I know your name?')
+time.sleep(2)
+print('Hellow'+'' + Name)
+Bird_feeder=input('Do you like to see new our new design of bird feeder?')
+time.sleep(2)
+if 'yes' or 'sure' in Bird_feeder:
+    print('Nice, Well price for this product only 99/- per piece')
+time.sleep(2)
+
+Buy=input('are you interested to bye?')
+if 'interested' in Buy:
+    print('How many quantity do you need?')
+else:
+    print('Thank you for visiting')
+time.sleep(2)
+Address=input('We can deliver you Bird feeder at your home, R U interesed?')
+if 'interested' in Address:
+    print('please enter your delivery address…')
+else:
+    print('Thank you for visiting')
